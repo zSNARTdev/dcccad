@@ -41,8 +41,18 @@
 
 #span-img-footer:before {
     display: flex;
-    margin: 8vh 0vw;
-    justify-content: center;
-    content: url(../images/logofatec.png);
+    margin: 4vh auto 4vh auto;
+    height: 15vh;
+    /*justify-content: center;*/
+    background: url(../images/logofatec.png) no-repeat center center;
+    background-size: contain;
+    content: url(./images/logofatec.png);
 }
-/*FONTE...*/
+/*FONTE...
+IMG-FOOTER 
+    background-size: cover;
+    width: 25%;
+    margin: auto;
+    justify-content: center;
+    display: flex
+;*/

@@ -24,19 +24,21 @@
 /* LOGO DCC AZUL */
 @media (max-width: 510px){ /*LARGURA WIDTH*/
     #cad-logo {
-        background: url("../images/DCCcad_fatecsp3D-vertical-reduzido.png") no-repeat center center;
+        /*background: url("../images/DCCcad_fatecsp3D-vertical-reduzido.png") no-repeat center center;*/
         margin: auto;
         background-size: contain;
         width: 20vw;
-        height: 14vh;
+        /*height: 14vh;*/
+    }
+    #banner-titulo {
+        width: 50vw;
+        font-size: small;
     }
     /*#banner-titulo { display: none;}*/
 }
 /* BANNER RED */
 @media (max-width: 700px){ /*Titulo do background RED */
-    #banner-titulo {
-        font-size: medium;
-    }
+    /*#banner-titulo { font-size: medium; }*/
 }
 /**------------------ CONFIGURAÇÕES DE RESOLUÇÃO ALTA ------------------**/
 
@@ -116,25 +118,15 @@
 /*CONTEÚDO PRINCIPAL*/
 /*LAYOUT DO TEXTO*/
 @media(min-width: 475px){
-    .display-container {
-        display: flex;
-    }
-    .ul-aux-container {
-        display: flex;
-        justify-content: center;
-    }
+    .display-container { display: flex; }
+    .ul-aux-container { display: flex; justify-content: center; }
 }
 
 /*CARROSSEL SECTION*/
 /*LAYOUT CARROSSEL*/
 @media(min-width: 700px){
-    .carrossel-container {
-        width: 50%;
-        height: 35vw;
-    }
-    .slide {
-        height: 35vw;
-    }
+    .carrossel-container { width: 40%; height: 30vw; }
+    .slide { height: 30vw; }
 }
 /**------------------ CONFIGURAÇÕES DE RESOLUÇÃO ALTA ------------------**/
 
@@ -147,74 +139,100 @@
 /*CONTEÚDO FINAL*/
 
 @media(min-width: 1200px){
-    .display-footer2 {
-        display: flex;
-    }/*acima de 1200px*/
+    .display-footer2 { display: flex; }/*acima de 1200px*/
 }
 
-@media(min-width: 820px){
-    
-    
-    
-    /*#footer2 { padding-left: 20vw;}*/
-}
+@media(min-width: 820px){/*#footer2 { padding-left: 20vw;}*/}
 @media(max-width: 848px){
-    /*#span-img-footer {
-        display: flex;
-        margin: 8vh 0vw;
-        justify-content: center;
+    /*#span-img-footer {display: flex;
+        margin: 8vh 0vw;justify-content: center;
     }*/
-    .display-footer {
-        flex-direction: column;
-    }
+    .display-footer { flex-direction: column; }
 
 }
 @media(min-width:849px){
     .h2-footer{ margin-top: 5vh; }
-    .display-footer{
-        /*flex-direction: ;*/
-        margin: 2vh 2vw;
-        justify-content: center;
+    .display-footer{/*flex-direction: ;*/
+        margin: 2vh 2vw; justify-content: center;
     }
     
-    .footer-col {
-        /*margin-bottom: 5vh;*/
-        margin: 0vh auto auto 6vw;
-        justify-content: center;
+    .footer-col {/*margin-bottom: 5vh;*/
+        margin: 0vh auto auto 6vw; justify-content: center;
     }
     /*.logo-fatec-footer { display: none; }*/
     
     
 }
 /**------------------ CONFIGURAÇÕES DE RESOLUÇÃO ALTA ------------------**/
+@media(min-width: 850px){
+    @media(max-width: 899px){#img-responsive { width: 70%; }}
+    @media(max-width: 900px){#img-responsive { width: 60%; }}
+    @media(min-width: 1200px){#img-responsive{ width: 50%; }}
+}
+@media(min-width: 1200px){
+    @media(max-width: 1599px){#banner-titulo { font-size: large; }}
+}
 @media(min-width: 1600px ){
-    @media(max-width:1799px){
-        .p-footer { font-size: large; }
+    @media(max-width:1799px){.banner{ font-size: x-large; }
+                             .p-footer { font-size: large; }
     }
 }
 @media(min-width: 1800px){
-    .banner{ font-size: x-large; }
+    @media(max-width: 2199px){
+        .banner{ font-size: x-large; }
 
-    .navbar-header { font-size: x-large; }
-    .ul-menu-header .li-menu-header{
-        margin: auto 50px;
+        .navbar-header { font-size: x-large; }
+        .ul-menu-header .li-menu-header { margin: auto 50px; }
+
+        .dcc-background { font-size: xx-large; }
+        .div-container { font-size: x-large; }
+
+        .div-container-auxiliares { font-size: x-large;}
+        #b-aux-container { font-size: xx-large; }
+
+        .h2-footer { font-size: xx-large; }
+        .p-footer { font-size: x-large; }
+        .copy-right-footer { font-size: medium; }
     }
-
-    .dcc-background { font-size: xx-large; }
-    .div-container { font-size: x-large; }
-
-    .div-container-auxiliares { font-size: x-large;}
-    #b-aux-container { font-size: xx-large; }
-
-    .h2-footer { font-size: xx-large; }
-    .p-footer { font-size: x-large; }
-    .copy-right-footer { font-size: medium; }
 }
 
+@media(min-width: 2200px){
+    @media(max-width: 2799px){
+        /*banner*/
+        .banner{ font-size: xx-large; }
+        /*menu*/
+        .navbar-header { font-size: x-large; }
+        .ul-menu-header .li-menu-header { margin: auto 50px; }
+        /*background*/
+        .a-logo { font-size: xx-large; } 
+        /*section - main*/
+        .div-container { font-size: x-large; }
 
+        .div-container-auxiliares { font-size: x-large;}
+        #b-aux-container { font-size: xx-large; }
+        /*footer*/
+        .h2-footer { font-size: xxx-large; }
+        .p-footer { font-size: xx-large; }
+        .copy-right-footer { font-size: medium; }
+        }
+}
+
+@media(min-width: 2800px){
+    /*banner - menu*/
+    #banner-titulo .navbar-header { height: 150px; }
+    .banner .navbar-header { font-size: xxx-large; }
+    /*section - main*/
+    .div-container { font-size: xx-large; }
+
+    .div-container-auxiliares { font-size: xx-large;}
+    #b-aux-container { font-size: xxx-large; }
+    /*footer*/
+    .h2-footer { font-size: xxx-large; }
+    .p-footer { font-size: xx-large; }
+}
 /*
 *Arroma media pro footer -largura de width margin
-*arrumar resoluções de letras /dcc-baclground/ banner/ navbar/ section/ 
+*arrumar resoluções de letras /dcc-background/ banner/ navbar/ section/ 
 *implementar texto no carrossel
 *fazer icones de pagination do carrossel funcionarem
 *rever menu altura e largura...
