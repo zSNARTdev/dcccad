@@ -47,7 +47,7 @@
 
 
  /************************ CARROSSEL SECTION ******************/
-.carrossel-container {
+.carrossel-container { /*posicionar no meio e adionar texto*/
     position: relative;
     margin: 15px;
     /*width: 40%;*/
