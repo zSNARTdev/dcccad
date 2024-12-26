@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DCC CAD FATEC São Paulo</title>
+    <link rel="stylesheet" href="./styles/banner.css"    />
+    <link rel="stylesheet" href="./styles/background.css"/>
+    <link rel="stylesheet" href="./styles/header.css"    />
+    <link rel="stylesheet" href="./styles/section.css"   />
+    <link rel="stylesheet" href="./styles/footer.css"    />
+    <link rel="stylesheet" href="./styles/responsive.css"/>
+    <link rel="stylesheet" href="./styles/root.css"      />
+    <link rel="stylesheet" href="./styles/default.css"   />
+</head>
+<body>
+    <!-- ************************ BANNER **********************-->
+    <div class="banner">
+        <!--<picture id="img-responsive">
+            <source media="(max-width: 1085 px)" srcset="../images/DCCcad_fatecsp3D02-100px.png"/>
+        </picture>-->
+        <div id="cad-logo" href="#"></div>
+
+        <p id="banner-titulo">
+            <b>Laboratório Enedina Capuano</b>
+            <br/>
+            DCC-CAD Fatec SP / Edifícios
+        </p>
+    </div>
+    <!-- ************************** HEADER ***********************-->
+    <header>
+        <nav class="navbar-header">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div><!-- class: mobile-menu -->
+            <ul class="ul-menu-header">
+                <li class="li-menu-header"><a class="a-menu-header" href="#">Home       </a></li>
+                <li class="li-menu-header"><a class="a-menu-header" href="#">Disciplinas</a></li>
+                <li class="li-menu-header"><a class="a-menu-header" href="#">Links      </a></li>
+                <li class="li-menu-header"><a class="a-menu-header" href="#">Calendário </a></li>
+                <li class="li-menu-header"><a class="a-menu-header" href="reservas.html">Reservas   </a></li>
+                <li class="li-menu-header"><a class="a-menu-header" href="#">Professores</a></li>
+                <li class="li-menu-header"><a class="a-menu-header" href="#footer">Contate-nos</a></li>
+                <!--<option> Professores, Disciplinas, Ementa...</option>-->
+            </ul><!-- class: ul-menu-header -->
+        </nav> <!-- class: navbar-header -->
+    </header>
+
+
+    <!-- ************** BACKGROUND *******************-->
+    <div class="dcc-background"><a class="a-logo" href="#"><p class="lab-capuano">DCC CAD</p></a></div>
+    
+
+
+    <!-- ****************** MAIN SECTION **********************-->
+    <main>
+        <section class="conteudo-main">
+            <div class="container-section">
+                <div class="display-container">
+                    <div class="div-container">
+                        
+                        <h2><b>Departamento de Edificio FATEC SP</b></h2>
+                        <p>
+                            <br/>
+                            Dep de edificios: Terréo Bloco A e B... 
+                            <br/>
+                            Email: edificio@fatecsp.br
+                            <br/>
+                            Telefone: (11) 3322-2278 - Dep. de Edifícios
+                        </p>
+                    </div> <!-- class: div-section -->
+                    <br/>
+                    <div class="div-container" id="div-container2">
+                        
+                        <h2><b>DCC Laboratório CAD</b></h2>
+                        <br/>
+                        Contato: dcccad@gmail.com
+                        <br/>
+                        Telefone: (11) 3322-2273
+                        <br/>
+                        Horário de atendimento: Seg. a Sex. das 09h às 19:30h
+                    </div> <!-- class: div-section -->
+                </div>
+                
+                <div class="div-container-auxiliares">
+                    <br/>
+                    <b id="b-aux-container">Auxiliares do corpo docente</b>
+                    <br/>
+                    <ul class="ul-aux-container">
+                        <li class="li-aux-container"><i class="i-aux-container"><a class="a-aux-container" href="#footer">Geovane  </a></i></li>
+                        <li class="li-aux-container"><i class="i-aux-container"><a class="a-aux-container" href="#footer">Jefferson</a></i></li>
+                        <li class="li-aux-container"><i class="i-aux-container"><a class="a-aux-container" href="#footer">Leticia  </a></i></li>
+                        <li class="li-aux-container"><i class="i-aux-container"><a class="a-aux-container" href="#footer">Paulo    </a></i></li>
+                    </ul>
+                </div><!-- class: div-section-auxiliares -->
+            </div>
+            <div class="carrossel-container">
+                <div class="carrossel-slide">
+                    <div class="slide" style="background-image: url(./images/labcad01.jpg);"></div>
+                    <div class="slide" style="background-image: url(./images/labcad02.jpg);"></div>
+                    <div class="slide" style="background-image: url(./images/labcad03.jpg);"></div>
+                    <div class="slide" style="background-image: url(./images/labcad04.jpg);"></div>
+                    <div class="slide" style="background-image: url(./images/labcad05.jpg);"></div>
+                    <div class="slide" style="background-image: url(./images/labcad06.jpg);"></div>
+                    <div class="slide" style="background-image: url(./images/labcad07.jpg);"></div>
+                    <div class="slide" style="background-image: url(./images/labcad08.jpg);"></div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094</button>
+                <button class="next" onclick="moveSlide(1)">&#10095</button>
+                    <div class="pagination-carrossel">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                        <span class="dot" onclick="currentSlide(8)"></span>
+                    </div>
+
+                    
+                
+            </div>
+        </section>
+    </main>
+
+
+    <!--*********************** FOOTER ****************************-->
+    <footer class="rodape" id="footer">
+        <!--<picture class="logo-fatec-footer">
+            <source media="(max-width: 500px)" srcset="./images/logofatec.png"/>
+            
+        </picture>-->
+        <div class="display-footer">
+            <div class="display-footer2">
+                <div class="footer-col">
+
+                    <h2 class="h2-footer"><b>Localização FATEC SP</b></h2>
+                    <p class="p-footer">
+                        <br/>
+                        Praça Coronel Fernando Prestes, 30
+                        <br/>
+                        (Entrada pela Av. Tiradentes, 615)
+                        <br/>
+                        Bom Retiro - São Paulo-SP
+                        <br/>
+                        CEP 01124-060
+                        <br/>
+                        Email: edificio@fatecsp.br
+                        <br/>
+                        Telefone: (11) 3322-2200 - FATEC SP
+                    </p> <!-- class: p-footer -->
+                </div>
+                
+                <div class="footer-col" >
+
+                    <h2 class="h2-footer"><b>Coordenação Laboratório CAD</b></h2>
+                    <p class="p-footer">
+                        <br/>
+                        Profª. Me. Ieda Maria Nolla
+                        <br/>
+                        Contato: iedamaria@fatecsp.br
+                        <br/>
+                        Telefone: (11) 3322-2273
+                        <br/>
+                        Fatec SP Bloco B - 2° Andar
+                        <br/>
+                        (Em frente a sala 29B)
+                    </p> <!-- class: p-footer -->
+                    <!--<img class="logo-fatec-footer" src="./images/logofatec.png" alt="IMG" srcset="">-->
+                </div>
+            </div>
+            
+            <div class="footer-col" id="footer3">
+                
+                <h2 class="h2-footer"><b>Desenvolvedores</b></h2>
+                <p class="p-footer">
+                    <br/>
+                    Aux. Docente Paulo Sousa
+                    <br/>
+                    Email: paulosousa@fatecsp.br
+                    <br/><br/>
+                    Aux Doc. ...
+                    <br/>
+                    Email: ...@fatecsp.br
+                </p> <!-- class: p-footer -->
+            </div>
+        </div>
+        
+        <span id="span-img-footer"></span>
+        
+        <p class="copy-right-footer">
+            &nbsp
+            &copy 2024 - Fatec SP - Desenvolvido por LABCAD - Todos os direitos reservados
+        </p>
+    </footer>
+    
+
+    <!-- ******************** SCRIPTS ********************-->
+    <script src="./scripts/mobile-navbar.js"></script>
+    <script src="./scripts/carrossel-section.js"></script>
+ </body>
+</html>
+<!--
+https://www.fatecsp.br/dti/laboratorioreserva.php
+
+https://sites.google.com/d/1x2eo308wHMvpR9t2M-Ksl4KLfDzFJau2/p/1g4Omwi1BDAA7mp4BVn7wQxEWAT-KOakd/edit
+
+https://sites.google.com/d/11qSDJulyxreqI_F2ZejuVMYfdRROBg4d/p/1IWCtZIrUjF6MM2Lm5_eiNA0QpNlw_BAM/edit
+
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:menu:FILL@0;wght@400;GRAD@0;opsz@20&icon.query=menu&icon.size=16&icon.color=%23EA3323&icon.platform=web
+
+https://github.com/tigercodes-io/navbar/blob/main/style.css
+
+https://www.youtube.com/watch?v=bHRXRYTppHM
+
+
+https://www.youtube.com/watch?v=ajrzA_C79Mo&t=17s
+
+
+https://www.fatecsp.br/paginas/pesquisar_google.php
+https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=125
+https://vestibular.fatec.sp.gov.br/
+https://www.cps.sp.gov.br/cursos-fatec/construcao-civil-edificios/
+https://www.cps.sp.gov.br/municipios/sao_paulo/?post_type=fatecs
+https://www.cps.sp.gov.br/fatecs/fatec-sao-paulo/
+
+
+17/12/24
+https://www.alura.com.br/artigos/srcset-trabalhando-imagens-responsivas?srsltid=AfmBOorPcG9WeYPbgLkd-RxPydB6onlKL5e612Me91OhA70c0LT6i5U4
+https://pt.stackoverflow.com/questions/326253/trocar-texto-utilizando-a-fun%C3%A7%C3%A3o-before-css
+https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+
+18/12/24
+https://pages.github.com/
+https://www.devmedia.com.br/como-criar-um-slider-com-css-e-html/37787
+
+
+19/12/24
+https://spbim.com.br/o-que-e-cad-desenho-assistido-por-computador/
+https://scancode.com.br/como-remover-elementos-html-com-javascript/#:~:text=smartphone%20da%20Amazon%3A-,Remover%20um%20Elemento%20HTML%20com%20o%20M%C3%A9todo%20remove(),de%20manipula%C3%A7%C3%A3o%20complexa%20do%20DOM.
+https://scancode.com.br/como-remover-elementos-html-com-javascript/#:~:text=smartphone%20da%20Amazon%3A-,Remover%20um%20Elemento%20HTML%20com%20o%20M%C3%A9todo%20remove(),de%20manipula%C3%A7%C3%A3o%20complexa%20do%20DOM.
+
+DevTools:
+https://www.fatecsp.br/dti/laboratorioreserva.php
+https://dcccad.wixsite.com/dcccad
+C:
+
+COLOCAR ICONE DE MENU!
+-->
